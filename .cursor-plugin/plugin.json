@@ -1,7 +1,7 @@
 {
   "name": "datadog",
   "version": "0.5.0",
-  "description": "Use Datadog directly in Cursor. Query logs, metrics, traces, dashboards, and more through natural conversation. Configure your domain and organization with automatic OAuth authentication.",
+  "description": "Use Datadog directly in Cursor through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation.",
   "author": {
     "name": "Datadog"
   },
@@ -12,11 +12,6 @@
     "datadog",
     "mcp"
   ],
-  "mcpServers": {
-    "datadog": {
-      "command": "${CURSOR_PLUGIN_ROOT}/bin/core.mjs"
-    }
-  },
   "hooks": {
     "sessionStart": [
       {
