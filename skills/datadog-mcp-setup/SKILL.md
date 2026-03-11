@@ -3,7 +3,7 @@ name: datadog-mcp-setup
 description: REQUIRED setup for how to query Datadog logs, metrics, dashboards, monitors, traces, and more via the Datadog MCP server. Use when investigating production issues, analyzing error rates, looking up request IDs, debugging alerts, exploring metrics/dashboards, or when the user mentions Datadog, logs, metrics, traces, or monitoring.
 ---
 
-The configuration for the MCP of the Datadog Plugin lives in the parent directory of this skills/ directory.
+The configuration for the MCP of the Datadog Plugin lives in the following directory relative to the path to this SKILL.md file: `../../mcp.json`
 
 By default, the URL contains ${DD_MCP_DOMAIN} as a template bar that must be customized for the user.
 
