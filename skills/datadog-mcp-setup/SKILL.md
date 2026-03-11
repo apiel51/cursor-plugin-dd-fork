@@ -1,6 +1,6 @@
 ---
-description: Environment setup to use the Datadog Plugin MCP
-alwaysApply: true
+name: datadog-mcp-setup
+description: REQUIRED environment setup to use the Datadog Plugin MCP
 ---
 
 The configuration for the MCP of the Datadog Plugin lives at:
